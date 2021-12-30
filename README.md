@@ -9,9 +9,7 @@ Antes de tudo, configure seu servidor SMB ou seu HD extero na linha comentada no
 O comando "quiet" pode ser adicionado no final do comando para que sejam exibidos apenas erros na tela.
 Após configurado, digite: `sudo ./copy.sh ano-mes-dia-nomeDoComputador sdxx` (O comando `sudo` só será necessário se você não estiver como **root**)
 
-Exemplo: `./copy.sh 2021-12-31-escritorio sda2`
-
-         `./copy.sh 2021-12-31-escritorio sda2 quiet`
+Exemplo: `./copy.sh 2021-12-31-escritorio sda2` para um backup com bastante informação, e `./copy.sh 2021-12-31-escritorio sda2 quiet` para um backup silencioso.
 
 # Novidades:
 
