@@ -10,6 +10,7 @@ O comando "quiet" pode ser adicionado no final do comando para que sejam exibido
 Após configurado, digite: `sudo ./copy.sh ano-mes-dia-nomeDoComputador sdxx` (O comando `sudo` só será necessário se você não estiver como **root**)
 
 Exemplo: `./copy.sh 2021-12-31-escritorio sda2`
+
          `./copy.sh 2021-12-31-escritorio sda2 quiet`
 
 # Novidades:
